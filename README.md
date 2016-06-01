@@ -119,6 +119,7 @@ cd /tmp && wget -O - https://raw.githubusercontent.com/bil-elmoussaoui/Hardcode-
 
 ### Credits
 - Modified version of `data_pack.py`, by The Chromium Authors released under a BSD-style license
+- Modified version of `viberwrapper-indicator.py` by [karas84](https://github.com/karas84)
 - Chromuim icons, extracted from `chrome_100_percent.pak` released under BSD-style license
 - Qt applications icons name by [elementaryPlus](https://github.com/mank319/elementaryPlus) team
 
