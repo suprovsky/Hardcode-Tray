@@ -515,9 +515,9 @@ class ProcessFinder(object):
 
         ret = subprocess.Popen(['ps', '-aux'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         out_stream, err_stream = ret.communicate()
-
-        for line in out_stream.split('\n'):
-            if self.re.match(line):
+        out_stream = out_stream.split(b"\n")
+        for line in out_stream:
+            if self.re.match(line.decode("utf-8")):
                 self._found = True
 
 
