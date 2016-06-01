@@ -575,10 +575,6 @@ class ViberLauncher(threading.Thread):
             os._exit(-1)
 
 
-        try: Gtk.main_quit()
-        except: pass
-
-
 if __name__ == "__main__":
 
     try:
@@ -615,7 +611,6 @@ if __name__ == "__main__":
         t_vipoller.start()
 
         GObject.threads_init()
-        Gtk.main()
 
     except ViberAlreadyRunning:
 
