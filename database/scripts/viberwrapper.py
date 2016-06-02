@@ -610,8 +610,6 @@ if __name__ == "__main__":
         t_vipoller.setDaemon(True)
         t_vipoller.start()
 
-        GObject.threads_init()
-
     except ViberAlreadyRunning:
 
         sys.stdout.write("Viber Already Running!\n")
