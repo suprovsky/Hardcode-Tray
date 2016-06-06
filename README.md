@@ -33,6 +33,9 @@ After
     - Arch : <br />
       `sudo pacman -S python-cairosvg`<br />
       `sudo pacman -S inkscape`
+    - Gentoo : <br />
+      `sudo emerge --ask cairosvg`<br />
+      `sudo emerge --ask inkscape`
 
   3. Install the patched version of `sni-qt`
     - Debian/Ubuntu :<br />
